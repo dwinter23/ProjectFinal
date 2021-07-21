@@ -1,0 +1,44 @@
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.csprojResolveAssemblyReference.cache
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.Form1.resources
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.Cache
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\CircularProgressBar.dll
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\WinFormAnimation.dll
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\CircularProgressBar.xml
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\WinFormAnimation.xml
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\Dashboard.exe.config
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\Dashboard.exe
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\Dashboard.pdb
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\CircularProgressBar.dll
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\WinFormAnimation.dll
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\CircularProgressBar.xml
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\WinFormAnimation.xml
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.csproj.AssemblyReference.cache
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.Form1.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.exe
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.pdb
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.VentasMensuales.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.Cotizaciones.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.DocumentoVenta.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.FacturaCompra.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.GenerarInventario.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.GuiaEntrada.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.GuiaSalida.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.ListarClientes.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.ListarProveedores.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.OrdenCompra.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.PedidoVenta.resources
+C:\Users\test\Desktop\Menu\Dashboard\obj\Debug\Dashboard.ProductosFaltantes.resources
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\EntityFramework.dll
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\EntityFramework.xml
+C:\Users\test\Desktop\Menu\Dashboard\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ContextModelStoreContainer" CdmEntityContainer="ContextEntities">
+    <EntitySetMapping Name="boletas">
+      <EntityTypeMapping TypeName="ContextModel.boleta">
+        <MappingFragment StoreEntitySet="boleta">
+          <ScalarProperty Name="idboleta" ColumnName="idboleta" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="ContextModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="idcliente" ColumnName="idcliente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+          <ScalarProperty Name="satisfaccion" ColumnName="satisfaccion" />
+          <ScalarProperty Name="punto_inflexion" ColumnName="punto_inflexion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cotizacions">
+      <EntityTypeMapping TypeName="ContextModel.Cotizacion">
+        <MappingFragment StoreEntitySet="Cotizacion">
+          <ScalarProperty Name="idcotizacion" ColumnName="idcotizacion" />
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="empresa_nom" ColumnName="empresa_nom" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="iddetcotizacion" ColumnName="iddetcotizacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetCotizacions">
+      <EntityTypeMapping TypeName="ContextModel.DetCotizacion">
+        <MappingFragment StoreEntitySet="DetCotizacion">
+          <ScalarProperty Name="iddetcotizacion" ColumnName="iddetcotizacion" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="detalle" ColumnName="detalle" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetDocVentas">
+      <EntityTypeMapping TypeName="ContextModel.DetDocVenta">
+        <MappingFragment StoreEntitySet="DetDocVenta">
+          <ScalarProperty Name="iddetdocventa" ColumnName="iddetdocventa" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="igb" ColumnName="igb" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetFacturaComps">
+      <EntityTypeMapping TypeName="ContextModel.DetFacturaComp">
+        <MappingFragment StoreEntitySet="DetFacturaComp">
+          <ScalarProperty Name="iddetfacturacomp" ColumnName="iddetfacturacomp" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="igb" ColumnName="igb" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetGuiaEntradas">
+      <EntityTypeMapping TypeName="ContextModel.DetGuiaEntrada">
+        <MappingFragment StoreEntitySet="DetGuiaEntrada">
+          <ScalarProperty Name="iddetguiaentrada" ColumnName="iddetguiaentrada" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetGuiaEntradaCs">
+      <EntityTypeMapping TypeName="ContextModel.DetGuiaEntradaC">
+        <MappingFragment StoreEntitySet="DetGuiaEntradaC">
+          <ScalarProperty Name="iddetguiaentradac" ColumnName="iddetguiaentradac" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+          <ScalarProperty Name="idproducto_1" ColumnName="idproducto_1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetGuiaSalidas">
+      <EntityTypeMapping TypeName="ContextModel.DetGuiaSalida">
+        <MappingFragment StoreEntitySet="DetGuiaSalida">
+          <ScalarProperty Name="iddetguiasalida" ColumnName="iddetguiasalida" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetInventarios">
+      <EntityTypeMapping TypeName="ContextModel.DetInventario">
+        <MappingFragment StoreEntitySet="DetInventario">
+          <ScalarProperty Name="iddetinventario" ColumnName="iddetinventario" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetOrdenComps">
+      <EntityTypeMapping TypeName="ContextModel.DetOrdenComp">
+        <MappingFragment StoreEntitySet="DetOrdenComp">
+          <ScalarProperty Name="iddetordencomp" ColumnName="iddetordencomp" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="cargo_adicional" ColumnName="cargo_adicional" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="detalle" ColumnName="detalle" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetPedidoComps">
+      <EntityTypeMapping TypeName="ContextModel.DetPedidoComp">
+        <MappingFragment StoreEntitySet="DetPedidoComp">
+          <ScalarProperty Name="iddetpedidocomp" ColumnName="iddetpedidocomp" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetProdFaltantes">
+      <EntityTypeMapping TypeName="ContextModel.DetProdFaltante">
+        <MappingFragment StoreEntitySet="DetProdFaltantes">
+          <ScalarProperty Name="iddetprodfaltantes" ColumnName="iddetprodfaltantes" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="detalle" ColumnName="detalle" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DocVentas">
+      <EntityTypeMapping TypeName="ContextModel.DocVenta">
+        <MappingFragment StoreEntitySet="DocVenta">
+          <ScalarProperty Name="iddocventa" ColumnName="iddocventa" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="iddetdocventa" ColumnName="iddetdocventa" />
+          <ScalarProperty Name="idboleta" ColumnName="idboleta" />
+          <ScalarProperty Name="idfactura" ColumnName="idfactura" />
+          <ScalarProperty Name="idcliente" ColumnName="idcliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="facturas">
+      <EntityTypeMapping TypeName="ContextModel.factura">
+        <MappingFragment StoreEntitySet="factura">
+          <ScalarProperty Name="idfactura" ColumnName="idfactura" />
+          <ScalarProperty Name="ruc" ColumnName="ruc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FacturaComps">
+      <EntityTypeMapping TypeName="ContextModel.FacturaComp">
+        <MappingFragment StoreEntitySet="FacturaComp">
+          <ScalarProperty Name="idfacturacomp" ColumnName="idfacturacomp" />
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="iddetfacturacomp" ColumnName="iddetfacturacomp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GuiaEntradas">
+      <EntityTypeMapping TypeName="ContextModel.GuiaEntrada">
+        <MappingFragment StoreEntitySet="GuiaEntrada">
+          <ScalarProperty Name="idguiaentrada" ColumnName="idguiaentrada" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="moneda" ColumnName="moneda" />
+          <ScalarProperty Name="estatus" ColumnName="estatus" />
+          <ScalarProperty Name="origen" ColumnName="origen" />
+          <ScalarProperty Name="destino" ColumnName="destino" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="nombre_autorizante" ColumnName="nombre_autorizante" />
+          <ScalarProperty Name="iddetguiaentrada" ColumnName="iddetguiaentrada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GuiaEntradaCs">
+      <EntityTypeMapping TypeName="ContextModel.GuiaEntradaC">
+        <MappingFragment StoreEntitySet="GuiaEntradaC">
+          <ScalarProperty Name="idguiaentradac" ColumnName="idguiaentradac" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="moneda" ColumnName="moneda" />
+          <ScalarProperty Name="estatus" ColumnName="estatus" />
+          <ScalarProperty Name="origen" ColumnName="origen" />
+          <ScalarProperty Name="destino" ColumnName="destino" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="nombre_autorizante" ColumnName="nombre_autorizante" />
+          <ScalarProperty Name="iddetguiaentradac" ColumnName="iddetguiaentradac" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GuiaSalidas">
+      <EntityTypeMapping TypeName="ContextModel.GuiaSalida">
+        <MappingFragment StoreEntitySet="GuiaSalida">
+          <ScalarProperty Name="idguiasalida" ColumnName="idguiasalida" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="moneda" ColumnName="moneda" />
+          <ScalarProperty Name="nombre_autorizante" ColumnName="nombre_autorizante" />
+          <ScalarProperty Name="iddetguiasalida" ColumnName="iddetguiasalida" />
+          <ScalarProperty Name="idcliente" ColumnName="idcliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inventarios">
+      <EntityTypeMapping TypeName="ContextModel.Inventario">
+        <MappingFragment StoreEntitySet="Inventario">
+          <ScalarProperty Name="idcabinventario" ColumnName="idcabinventario" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="motivo" ColumnName="motivo" />
+          <ScalarProperty Name="entrada_total" ColumnName="entrada_total" />
+          <ScalarProperty Name="salida_total" ColumnName="salida_total" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="iddetinventario" ColumnName="iddetinventario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdenComps">
+      <EntityTypeMapping TypeName="ContextModel.OrdenComp">
+        <MappingFragment StoreEntitySet="OrdenComp">
+          <ScalarProperty Name="idordencomp" ColumnName="idordencomp" />
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="fecha_requerida" ColumnName="fecha_requerida" />
+          <ScalarProperty Name="lugar_entrega" ColumnName="lugar_entrega" />
+          <ScalarProperty Name="iddetordencomp" ColumnName="iddetordencomp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PedidoComps">
+      <EntityTypeMapping TypeName="ContextModel.PedidoComp">
+        <MappingFragment StoreEntitySet="PedidoComp">
+          <ScalarProperty Name="idpedidocomp" ColumnName="idpedidocomp" />
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="detalle_condiciones" ColumnName="detalle_condiciones" />
+          <ScalarProperty Name="iddetpedidocomp" ColumnName="iddetpedidocomp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProdFaltantes">
+      <EntityTypeMapping TypeName="ContextModel.ProdFaltante">
+        <MappingFragment StoreEntitySet="ProdFaltantes">
+          <ScalarProperty Name="idprodfaltantes" ColumnName="idprodfaltantes" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="condiciones" ColumnName="condiciones" />
+          <ScalarProperty Name="iddetprodfaltantes" ColumnName="iddetprodfaltantes" />
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productoes">
+      <EntityTypeMapping TypeName="ContextModel.Producto">
+        <MappingFragment StoreEntitySet="Producto">
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="categoria" ColumnName="categoria" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="preciounidad" ColumnName="preciounidad" />
+          <ScalarProperty Name="precioventa" ColumnName="precioventa" />
+          <ScalarProperty Name="unidadesstock" ColumnName="unidadesstock" />
+          <ScalarProperty Name="unidadesorden" ColumnName="unidadesorden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedors">
+      <EntityTypeMapping TypeName="ContextModel.Proveedor">
+        <MappingFragment StoreEntitySet="Proveedor">
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="nombrecompania" ColumnName="nombrecompania" />
+          <ScalarProperty Name="nombrecontacto" ColumnName="nombrecontacto" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoEmpleadoes">
+      <EntityTypeMapping TypeName="ContextModel.TipoEmpleado">
+        <MappingFragment StoreEntitySet="TipoEmpleado">
+          <ScalarProperty Name="idtipoempleado" ColumnName="idtipoempleado" />
+          <ScalarProperty Name="discripcion" ColumnName="discripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trabajadors">
+      <EntityTypeMapping TypeName="ContextModel.Trabajador">
+        <MappingFragment StoreEntitySet="Trabajador">
+          <ScalarProperty Name="idtrabajador" ColumnName="idtrabajador" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="idtipoempleado" ColumnName="idtipoempleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="ContextModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
