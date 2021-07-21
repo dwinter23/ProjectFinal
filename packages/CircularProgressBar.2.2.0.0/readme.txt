@@ -4,4 +4,4 @@
 =====================================================================
 
 USAGE
-	Use toolbox to add the control to your forms.
+	Use toolbox to add the control to yoour forms.
